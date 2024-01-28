@@ -1,0 +1,27 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Saad Shekhani
+	email = sadomr425@gmail.com
+[core]
+	editor = code --wait
+	autocrlf = true
+[alias]
+	st = status
+	mk = mkdir
+	cg = config --global
+	br = branch 
+	co = commit -m
+	po = push origin
+	rv = remote -v
+	cho = checkout
+	cgl = config --global --list
+	rao = remote add origin
+	cga = config -- global alias.
+	stl = stash list
+	stp = stash  pop
+	std = stash  drop
+	sts = stash save
