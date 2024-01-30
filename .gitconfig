@@ -25,3 +25,4 @@
 	stp = stash  pop
 	std = stash  drop
 	sts = stash save
+    res = reset
